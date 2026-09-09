@@ -1,124 +1,702 @@
-<!DOCTYPE html>
-<html lang="zh-TW">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>側影之心的精選好物</title>
-    <style>
-        /* 頁面整體設定 */
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: #f5f5f7; /* 背景顏色 (淺灰) */
-            color: #333;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            min-height: 100vh;
-        }
-
-        /* 內容容器限制寬度，讓手機版好看 */
-        .container {
-            width: 90%;
-            max-width: 400px; /* 限制最大寬度像手機一樣 */
-            margin-top: 40px;
-            text-align: center;
-            padding-bottom: 40px;
-        }
-
-        /* 頭像設定 */
-        .profile-img {
-            width: 96px;
-            height: 96px;
-            border-radius: 50%; /* 圓形 */
-            object-fit: cover;
-            border: 2px solid #ddd;
-            margin-bottom: 15px;
-        }
-
-        /* 名字與簡介 */
-        h1 {
-            font-size: 20px;
-            margin-bottom: 10px;
-            font-weight: 700;
-        }
-        p {
-            font-size: 14px;
-            color: #666;
-            margin-bottom: 30px;
-        }
-
-        /* 按鈕樣式 (蝦皮風格) */
-        .link-btn {
-            display: block;
-            width: 100%;
-            padding: 16px 0;
-            margin-bottom: 16px;
-            background-color: #ffffff;
-            color: #000;
-            text-decoration: none;
-            border: 1px solid #ddd;
-            border-radius: 30px; /* 圓角按鈕 */
-            font-weight: 600;
-            transition: transform 0.2s, box-shadow 0.2s;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-        }
-
-        /* 按鈕滑鼠懸停效果 */
-        .link-btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            background-color: #fff0f0; /* 懸停時變淡粉色 */
-            border-color: #ee4d2d; /* 蝦皮橘 */
-            color: #ee4d2d;
-        }
-
-        /* 特殊強調按鈕 (例如最新活動) */
-        .link-btn.highlight {
-            background-color: #ee4d2d;
-            color: white;
-            border: none;
-        }
-        .link-btn.highlight:hover {
-            background-color: #d73211;
-            color: white;
-        }
-
-        /* 底部版權宣告 */
-        .footer {
-            margin-top: 20px;
-            font-size: 12px;
-            color: #aaa;
-        }
-    </style>
-</head>
-<body>
-
-    <div class="container">
-        <img src="https://github.com/boson-1.png" alt="Profile Picture" class="profile-img">
-        
-        <h1>側影之心</h1>
-        
-        <p>這裡分享我覺得不錯的酷東西。<br>點擊下方連結查看詳細資訊！</p>
-
-        <a href="https://s.shopee.tw/8AQEz7FXzO" class="link-btn highlight" target="_blank">
-            🔥 本月主打推薦
-        </a>
-
-        <a href="https://s.shopee.tw/BNxSKzuOw" class="link-btn" target="_blank">
-            📷 攝影器材配件
-        </a>
-      
-
-        <a href="https://www.instagram.com/jbs.street.recordings/" class="link-btn" target="_blank">
-            追蹤我的 Instagram
-        </a>
-
-        <div class="footer">
-            © 2026 側影之心
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#141615" />
+    <meta
+      name="description"
+      content="側影之心 JBS Street Recordings，專注舞蹈、K-pop cover、舞展與賽事的動態影像紀錄。看看作品，聊聊你的下一場演出。"
+    />
+    <title>側影之心 JBS Street Recordings｜舞蹈・現場演出・動態影像</title>
+    <link rel="canonical" href="https://yt.jamesboson.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="zh_TW" />
+    <meta property="og:site_name" content="側影之心 · JBS Street Recordings" />
+    <meta property="og:title" content="側影之心｜讓每一個動作，都被看見。" />
+    <meta
+      property="og:description"
+      content="舞蹈、舞展與現場演出的動態影像。探索精選作品，開始你的下一次拍攝。"
+    />
+    <meta property="og:url" content="https://yt.jamesboson.com/" />
+    <meta
+      property="og:image"
+      content="https://yt.jamesboson.com/assets/images/XfOgJukNFSA.webp"
+    />
+    <meta property="og:image:width" content="1280" />
+    <meta property="og:image:height" content="720" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="preload" as="image" href="assets/images/XfOgJukNFSA.webp" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "側影之心 · JBS Street Recordings",
+        "url": "https://yt.jamesboson.com/",
+        "description": "舞蹈、K-pop cover、舞展與賽事動態影像紀錄",
+        "sameAs": [
+          "https://www.youtube.com/@jbs-street-recordings",
+          "https://www.instagram.com/jbs.street.recordings/"
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main" data-i18n="skip">跳至主要內容</a>
+    <header class="site-header">
+      <a
+        class="brand"
+        href="#top"
+        aria-label="側影之心 JBS Street Recordings 首頁"
+      >
+        <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true">
+          <path d="M13 5H5v8M27 5h8v8M5 27v8h8M35 27v8h-8" />
+          <path d="m17 13 11 7-11 7z" />
+        </svg>
+        <span
+          ><strong>側影之心<span class="accent">.</span></strong
+          ><small>JBS STREET RECORDINGS</small></span
+        >
+      </a>
+      <nav class="desktop-nav" aria-label="主要導覽">
+        <a href="#work" data-i18n="navWork">精選作品</a
+        ><a href="#services" data-i18n="navServices">拍攝服務</a
+        ><a href="#about" data-i18n="navAbout">關於我</a>
+      </nav>
+      <div class="header-actions">
+        <button
+          class="language-toggle"
+          type="button"
+          aria-label="Switch to English"
+          hidden
+        >
+          EN</button
+        ><a class="header-contact" href="#contact"
+          ><span data-i18n="navContact">聊聊合作</span
+          ><span aria-hidden="true">↗</span></a
+        ><button
+          class="menu-toggle"
+          type="button"
+          aria-label="開啟選單"
+          aria-expanded="false"
+          aria-controls="mobile-nav"
+          hidden
+        >
+          <span></span><span></span>
+        </button>
+      </div>
+      <nav id="mobile-nav" class="mobile-nav" aria-label="行動版導覽" hidden>
+        <a href="#work" data-i18n="navWork">精選作品</a
+        ><a href="#services" data-i18n="navServices">拍攝服務</a
+        ><a href="#about" data-i18n="navAbout">關於我</a
+        ><a href="#contact" data-i18n="navContact">聊聊合作</a>
+      </nav>
+    </header>
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <img
+          class="hero-image"
+          src="assets/images/XfOgJukNFSA.webp"
+          width="1280"
+          height="720"
+          alt="三十高校街舞祭，舞者在藍色舞台燈光下演出"
+          fetchpriority="high"
+        />
+        <div class="hero-shade"></div>
+        <div class="hero-topline">
+          <span class="eyebrow"
+            ><span class="record-dot"></span> IN THE MOMENT. IN MOTION.</span
+          ><span class="hero-location">TAIWAN · DANCE FILMMAKER</span>
         </div>
-    </div>
-
-</body>
+        <div class="hero-content">
+          <p class="hero-kicker" data-i18n="heroKicker">
+            舞蹈・現場演出・動態影像
+          </p>
+          <h1 id="hero-title">
+            <span data-i18n="heroLine1">讓每一個動作，</span><br /><span
+              data-i18n="heroLine2"
+              >都被看見。</span
+            >
+          </h1>
+          <p class="hero-description" data-i18n="heroDesc">
+            從街頭到舞台，記錄你全力以赴的瞬間。<br />讓演出落幕之後，感動依然在場。
+          </p>
+          <a class="button button-light" href="#work"
+            ><span data-i18n="explore">探索精選作品</span
+            ><span aria-hidden="true">↓</span></a
+          >
+        </div>
+        <a
+          class="hero-play"
+          href="https://www.youtube.com/watch?v=XfOgJukNFSA"
+          data-video="XfOgJukNFSA"
+          aria-label="播放三十高校街舞祭 JAZZ"
+          ><span class="play-circle"
+            ><svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="m9 5 11 7-11 7z" /></svg></span
+          ><span class="hero-play-label"
+            ><small>FEATURED FILM / 2024</small
+            ><span data-i18n="heroFilm">三十高校街舞祭 · JAZZ</span></span
+          ></a
+        >
+        <div class="hero-bottom">
+          <span>01 — SELECTED MOMENT</span><span>4K / 60FPS</span>
+        </div>
+      </section>
+      <div class="intro-strip wrap">
+        <p data-i18n="intro">你專注發光。<span>我專注留下那道光。</span></p>
+        <span class="eyebrow">MOVEMENT. ENERGY. CONNECTION.</span>
+      </div>
+      <section
+        class="work-section wrap section-space"
+        id="work"
+        aria-labelledby="work-title"
+      >
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow section-index">01 / SELECTED WORK</p>
+            <h2 id="work-title" data-i18n="workTitle">
+              一些值得重播的瞬間<span class="accent">。</span>
+            </h2>
+          </div>
+          <a
+            class="text-link"
+            href="https://www.youtube.com/@jbs-street-recordings/videos"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><span data-i18n="allYoutube">更多 YouTube 作品</span
+            ><span aria-hidden="true">↗</span></a
+          >
+        </div>
+        <div class="work-toolbar">
+          <div class="filters" role="group" aria-label="作品分類" hidden>
+            <button
+              type="button"
+              data-filter="all"
+              aria-pressed="true"
+              data-i18n="filterAll"
+            >
+              全部作品</button
+            ><button
+              type="button"
+              data-filter="street"
+              aria-pressed="false"
+              data-i18n="filterStreet"
+            >
+              K-pop / 街頭</button
+            ><button
+              type="button"
+              data-filter="stage"
+              aria-pressed="false"
+              data-i18n="filterStage"
+            >
+              舞台 / 舞展</button
+            ><button
+              type="button"
+              data-filter="competition"
+              aria-pressed="false"
+              data-i18n="filterCompetition"
+            >
+              賽事紀錄
+            </button>
+          </div>
+          <span class="work-count" aria-live="polite" aria-atomic="true"
+            >06 FILMS</span
+          >
+        </div>
+        <div class="work-grid">
+          <article class="work-card" data-category="street">
+            <a
+              class="work-image"
+              href="https://www.youtube.com/watch?v=tiMi9QrME_Y"
+              data-video="tiMi9QrME_Y"
+              aria-label="播放 ICONIC BY MISTAKE"
+              ><img
+                src="assets/images/tiMi9QrME_Y.webp"
+                width="1280"
+                height="720"
+                loading="lazy"
+                alt="ICONIC BY MISTAKE，台中街頭舞蹈快閃"
+              /><span class="image-topline"
+                ><span>01</span><span>2026</span></span
+              ><span class="card-play" aria-hidden="true">↗</span
+              ><span class="duration">03:28</span></a
+            >
+            <div class="work-caption">
+              <div>
+                <p class="eyebrow">K-POP IN PUBLIC</p>
+                <h3>ICONIC BY MISTAKE</h3>
+                <p data-i18n="work1Desc">舞客星夏日派對舞蹈快閃 · 台中</p>
+              </div>
+              <span class="caption-arrow" aria-hidden="true">↗</span>
+            </div>
+          </article>
+          <article class="work-card" data-category="stage">
+            <a
+              class="work-image"
+              href="https://www.youtube.com/watch?v=HjaXSWdrFks"
+              data-video="HjaXSWdrFks"
+              aria-label="播放新生熱舞 Rïtmo"
+              ><img
+                src="assets/images/HjaXSWdrFks.webp"
+                width="1280"
+                height="720"
+                loading="lazy"
+                alt="新生熱舞在 Rïtmo 聯合舞展演出"
+              /><span class="image-topline"
+                ><span>02</span><span>2026</span></span
+              ><span class="card-play" aria-hidden="true">↗</span
+              ><span class="duration">04:43</span></a
+            >
+            <div class="work-caption">
+              <div>
+                <p class="eyebrow">LIVE PERFORMANCE</p>
+                <h3 data-i18n="work2Title">新生熱舞 · Rïtmo</h3>
+                <p data-i18n="work2Desc">桃竹苗高中職聯合舞展 · 第 23 屆</p>
+              </div>
+              <span class="caption-arrow" aria-hidden="true">↗</span>
+            </div>
+          </article>
+          <article class="work-card" data-category="competition">
+            <a
+              class="work-image"
+              href="https://www.youtube.com/watch?v=mlC6SqKO5Xs"
+              data-video="mlC6SqKO5Xs"
+              aria-label="播放 BOOMBAYAH 佳人們誰懂"
+              ><img
+                src="assets/images/mlC6SqKO5Xs.webp"
+                width="1280"
+                height="720"
+                loading="lazy"
+                alt="佳人們誰懂在 DANCE ON LIFE 比賽演出 BOOMBAYAH"
+              /><span class="image-topline"
+                ><span>03</span><span>2025</span></span
+              ><span class="card-play" aria-hidden="true">↗</span
+              ><span class="duration">04:33</span></a
+            >
+            <div class="work-caption">
+              <div>
+                <p class="eyebrow">DANCE COMPETITION</p>
+                <h3>BOOMBAYAH</h3>
+                <p data-i18n="work3Desc">佳人們誰懂 · DANCE ON LIFE 新竹</p>
+              </div>
+              <span class="caption-arrow" aria-hidden="true">↗</span>
+            </div>
+          </article>
+          <article class="work-card" data-category="street">
+            <a
+              class="work-image"
+              href="https://www.youtube.com/watch?v=lxSwGO8jnu0"
+              data-video="lxSwGO8jnu0"
+              aria-label="播放 Strategy Side Cam"
+              ><img
+                src="assets/images/lxSwGO8jnu0.webp"
+                width="1280"
+                height="720"
+                loading="lazy"
+                alt="TWICE Strategy cover，信義區街頭側拍"
+              /><span class="image-topline"
+                ><span>04</span><span>2024</span></span
+              ><span class="card-play" aria-hidden="true">↗</span
+              ><span class="duration">02:59</span></a
+            >
+            <div class="work-caption">
+              <div>
+                <p class="eyebrow">DANCE COVER / SIDE CAM</p>
+                <h3>Strategy</h3>
+                <p data-i18n="work4Desc">TWICE Dance Cover · 信義區街頭側拍</p>
+              </div>
+              <span class="caption-arrow" aria-hidden="true">↗</span>
+            </div>
+          </article>
+          <article class="work-card" data-category="street">
+            <a
+              class="work-image"
+              href="https://www.youtube.com/watch?v=LTzvOOpUqac"
+              data-video="LTzvOOpUqac"
+              aria-label="播放 GNARLY Fireworks"
+              ><img
+                src="assets/images/LTzvOOpUqac.webp"
+                width="1280"
+                height="720"
+                loading="lazy"
+                alt="Fireworks 演出 KATSEYE GNARLY 舞蹈 cover"
+              /><span class="image-topline"
+                ><span>05</span><span>2025</span></span
+              ><span class="card-play" aria-hidden="true">↗</span
+              ><span class="duration">02:44</span></a
+            >
+            <div class="work-caption">
+              <div>
+                <p class="eyebrow">K-POP IN PUBLIC</p>
+                <h3>GNARLY</h3>
+                <p data-i18n="work5Desc">Fireworks · 舞客星台中夏日快閃</p>
+              </div>
+              <span class="caption-arrow" aria-hidden="true">↗</span>
+            </div>
+          </article>
+          <article class="work-card" data-category="stage">
+            <a
+              class="work-image"
+              href="https://www.youtube.com/watch?v=XfOgJukNFSA"
+              data-video="XfOgJukNFSA"
+              aria-label="播放三十高校街舞祭 JAZZ"
+              ><img
+                src="assets/images/XfOgJukNFSA.webp"
+                width="1280"
+                height="720"
+                loading="lazy"
+                alt="鶯歌、明德、松商、秀峰在三十高校街舞祭的 JAZZ 舞台"
+              /><span class="image-topline"
+                ><span>06</span><span>2024</span></span
+              ><span class="card-play" aria-hidden="true">↗</span
+              ><span class="duration">03:50</span></a
+            >
+            <div class="work-caption">
+              <div>
+                <p class="eyebrow">LIVE PERFORMANCE</p>
+                <h3 data-i18n="work6Title">三十高校街舞祭 · JAZZ</h3>
+                <p data-i18n="work6Desc">
+                  鶯歌 × 明德 × 松商 × 秀峰 · SYM Dance30
+                </p>
+              </div>
+              <span class="caption-arrow" aria-hidden="true">↗</span>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section
+        class="services-section section-space"
+        id="services"
+        aria-labelledby="services-title"
+      >
+        <div class="wrap">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow section-index">02 / WHAT I DO</p>
+              <h2 id="services-title" data-i18n="servicesTitle">
+                你的舞台，我的視角<span class="accent">。</span>
+              </h2>
+            </div>
+            <p class="section-description" data-i18n="servicesDesc">
+              為舞者、舞團與活動主辦方，<br />留下值得分享、反覆回看的影像。
+            </p>
+          </div>
+          <div class="service-list">
+            <article class="service">
+              <span class="service-number">01</span>
+              <div>
+                <p class="eyebrow">LIVE & EVENTS</p>
+                <h3 data-i18n="service1Title">舞展・賽事紀錄</h3>
+              </div>
+              <div class="service-body">
+                <p data-i18n="service1Desc">
+                  從校園成發到街舞競賽，記錄舞碼的隊形、節奏與現場氣氛，讓精心準備的演出，有一份能再次回味的紀錄。
+                </p>
+                <ul>
+                  <li data-i18n="service1Tag1">校園舞展</li>
+                  <li data-i18n="service1Tag2">成果發表</li>
+                  <li data-i18n="service1Tag3">熱舞競賽</li>
+                </ul>
+              </div>
+              <a
+                href="#contact"
+                class="service-arrow"
+                aria-label="洽詢舞展與賽事紀錄"
+                >↗</a
+              >
+            </article>
+            <article class="service">
+              <span class="service-number">02</span>
+              <div>
+                <p class="eyebrow">DANCE & STREET</p>
+                <h3 data-i18n="service2Title">K-pop・街頭演出</h3>
+              </div>
+              <div class="service-body">
+                <p data-i18n="service2Desc">
+                  捕捉 cover
+                  與快閃演出的動作細節，把舞者的表情、默契與街頭的生命力，一起留在鏡頭裡。
+                </p>
+                <ul>
+                  <li>K-pop cover</li>
+                  <li data-i18n="service2Tag2">街頭快閃</li>
+                  <li data-i18n="service2Tag3">舞團演出</li>
+                </ul>
+              </div>
+              <a
+                href="#contact"
+                class="service-arrow"
+                aria-label="洽詢 K-pop 與街頭演出拍攝"
+                >↗</a
+              >
+            </article>
+            <article class="service">
+              <span class="service-number">03</span>
+              <div>
+                <p class="eyebrow">ANOTHER PERSPECTIVE</p>
+                <h3 data-i18n="service3Title">演出側拍・個人紀錄</h3>
+              </div>
+              <div class="service-body">
+                <p data-i18n="service3Desc">
+                  從另一個視角記錄同一場演出。事先聊聊想聚焦的舞者、段落與構圖，為你的作品集留下屬於自己的畫面。
+                </p>
+                <ul>
+                  <li>Side cam</li>
+                  <li data-i18n="service3Tag2">舞者紀錄</li>
+                  <li data-i18n="service3Tag3">作品集素材</li>
+                </ul>
+              </div>
+              <a
+                href="#contact"
+                class="service-arrow"
+                aria-label="洽詢演出側拍與個人紀錄"
+                >↗</a
+              >
+            </article>
+          </div>
+          <p class="service-note" data-i18n="serviceNote">
+            拍攝時長、機位、交付規格與使用方式，依每次需求討論；直式短片與重點片段也歡迎一起聊聊。
+          </p>
+        </div>
+      </section>
+      <section
+        class="about-section wrap section-space"
+        id="about"
+        aria-labelledby="about-title"
+      >
+        <div class="about-art">
+          <img
+            src="assets/images/lxSwGO8jnu0.webp"
+            width="1280"
+            height="720"
+            loading="lazy"
+            alt="Strategy 舞蹈 cover 的側拍視角與現場環境"
+          />
+          <div class="about-art-label">
+            <span>BEHIND THE FRAME</span><span>JBS / TAIWAN</span>
+          </div>
+          <span class="image-corner" aria-hidden="true">+</span>
+        </div>
+        <div class="about-copy">
+          <p class="eyebrow section-index">03 / THE EYE BEHIND</p>
+          <h2 id="about-title" data-i18n="aboutTitle">
+            我是側影之心。<br />站在鏡頭後，<br />與你的熱愛同頻。
+          </h2>
+          <p data-i18n="aboutDesc1">
+            我在台灣拍攝舞蹈與現場演出，經營 YouTube 頻道「側影之心」。從街頭的
+            K-pop cover，到校園舞展與熱舞賽事，鏡頭裡始終是那些全力投入的人。
+          </p>
+          <p data-i18n="aboutDesc2">
+            我想留下的，是動作裡的情緒、舞台上的默契，以及只發生一次的現場。讓舞者看見自己的努力，也讓更多人感受到那份熱愛。
+          </p>
+          <a
+            class="text-link"
+            href="https://www.instagram.com/jbs.street.recordings/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><span data-i18n="aboutLink">在 Instagram 看更多日常</span
+            ><span aria-hidden="true">↗</span></a
+          >
+        </div>
+        <div class="channel-stats">
+          <div>
+            <strong>44K<span>+</span></strong
+            ><span data-i18n="stat1">YouTube 訂閱者</span>
+          </div>
+          <div>
+            <strong>1,900<span>+</span></strong
+            ><span data-i18n="stat2">已發布影片</span>
+          </div>
+          <div>
+            <strong>11M<span>+</span></strong
+            ><span data-i18n="stat3">頻道累積觀看</span>
+          </div>
+          <p data-i18n="statsNote">YouTube 公開數據<br />截至 2026.09.09</p>
+        </div>
+      </section>
+      <section
+        class="process-section wrap section-space"
+        aria-labelledby="process-title"
+      >
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow section-index">04 / LET’S MAKE IT HAPPEN</p>
+            <h2 id="process-title" data-i18n="processTitle">
+              從一個想法，到按下播放<span class="accent">。</span>
+            </h2>
+          </div>
+        </div>
+        <div class="process-grid">
+          <article>
+            <span>01 / CONNECT</span>
+            <h3 data-i18n="process1Title">先聊聊你的演出</h3>
+            <p data-i18n="process1Desc">
+              告訴我活動日期、地點、演出內容與期待的影片，從需求開始確認檔期。
+            </p>
+          </article>
+          <article>
+            <span>02 / PLAN & SHOOT</span>
+            <h3 data-i18n="process2Title">一起找到好的視角</h3>
+            <p data-i18n="process2Desc">
+              討論流程、機位與重點段落，確認報價、拍攝範圍及交付方式後，準備開拍。
+            </p>
+          </article>
+          <article>
+            <span>03 / REPLAY</span>
+            <h3 data-i18n="process3Title">讓那一刻繼續發光</h3>
+            <p data-i18n="process3Desc">
+              依約定內容整理與交付影像，讓你的演出成為可以珍藏、分享與回看的作品。
+            </p>
+          </article>
+        </div>
+      </section>
+      <section
+        class="contact-section"
+        id="contact"
+        aria-labelledby="contact-title"
+      >
+        <div class="wrap contact-inner">
+          <div class="contact-copy">
+            <p class="eyebrow">HAVE A MOMENT WORTH CAPTURING?</p>
+            <h2 id="contact-title" data-i18n="contactTitle">
+              下一個精彩瞬間，<br />一起留下。
+            </h2>
+            <p data-i18n="contactDesc">
+              有舞展、演出，或正在構思一支舞蹈影片？<br />帶著你的想法，來聊聊。
+            </p>
+            <a
+              class="button button-dark"
+              href="https://www.instagram.com/jbs.street.recordings/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><span data-i18n="contactButton">Instagram 私訊合作</span
+              ><span aria-hidden="true">↗</span></a
+            ><a
+              class="contact-handle"
+              href="https://www.instagram.com/jbs.street.recordings/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >@jbs.street.recordings</a
+            >
+          </div>
+          <div class="brief-panel">
+            <p class="eyebrow" data-i18n="briefLabel">
+              LET’S START WITH YOUR IDEA
+            </p>
+            <h3 data-i18n="briefTitle">開始對話，可以告訴我：</h3>
+            <ol>
+              <li data-i18n="brief1">你或團隊的名稱</li>
+              <li data-i18n="brief2">活動日期、地點與演出時長</li>
+              <li data-i18n="brief3">拍攝內容、參考影片與預算</li>
+              <li data-i18n="brief4">預計用途與希望收到影片的時間</li>
+            </ol>
+            <button class="copy-brief" type="button" hidden>
+              <span data-i18n="copyBrief">複製合作需求範本</span
+              ><svg
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                aria-hidden="true"
+              >
+                <rect x="8" y="8" width="12" height="12" rx="1" />
+                <path d="M16 8V4H4v12h4" />
+              </svg>
+            </button>
+            <p class="copy-status" role="status" aria-live="polite"></p>
+            <textarea
+              class="brief-fallback"
+              aria-label="合作需求範本"
+              readonly
+              hidden
+            ></textarea>
+          </div>
+        </div>
+      </section>
+      <section class="faq-section wrap" aria-labelledby="faq-title">
+        <h2 id="faq-title" data-i18n="faqTitle">拍攝前，你可能想知道</h2>
+        <div>
+          <details>
+            <summary data-i18n="faq1Title">怎麼確認檔期與報價？</summary>
+            <p data-i18n="faq1Desc">
+              透過 Instagram
+              私訊，提供日期、地點、拍攝時長與需求。會依拍攝內容、交通與交付規格討論報價；檔期以雙方確認為準。
+            </p>
+          </details>
+          <details>
+            <summary data-i18n="faq2Title">
+              可以拍直式影片，或提供原始素材嗎？
+            </summary>
+            <p data-i18n="faq2Desc">
+              可以先提出需求，一起確認機位、構圖、素材是否適合，以及交付內容。若你是已發布影片的演出者，也歡迎附上影片連結與時間碼私訊詢問；原檔能否提供依保存狀況而定。
+            </p>
+          </details>
+          <details>
+            <summary data-i18n="faq3Title">
+              影片一定會上傳到 YouTube 嗎？
+            </summary>
+            <p data-i18n="faq3Desc">
+              公開發布、交付用途與演出者授權會在合作前一起確認。若有未公開作品、音樂使用或活動方的限制，請事先告知，讓拍攝與使用方式符合你的需求。
+            </p>
+          </details>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer wrap">
+      <a class="footer-brand" href="#top"
+        >側影之心<span class="accent">.</span
+        ><small>JBS STREET RECORDINGS</small></a
+      >
+      <p>
+        © <span id="year">2026</span> JBS Street Recordings.<br /><span
+          data-i18n="footerTagline"
+          >用影像，讓熱愛被看見。</span
+        >
+      </p>
+      <div>
+        <a
+          href="https://www.youtube.com/@jbs-street-recordings"
+          target="_blank"
+          rel="noopener noreferrer"
+          >YouTube ↗</a
+        ><a
+          href="https://www.instagram.com/jbs.street.recordings/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Instagram ↗</a
+        ><a href="#top" data-i18n="backTop">回到頂端 ↑</a>
+      </div>
+    </footer>
+    <dialog class="film-dialog" aria-labelledby="film-title">
+      <div class="dialog-top">
+        <span class="eyebrow">JBS / FILM ROOM</span
+        ><button class="close-dialog" type="button" aria-label="關閉影片">
+          ✕
+        </button>
+      </div>
+      <div class="video-container"></div>
+      <div class="dialog-caption">
+        <div>
+          <h2 id="film-title"></h2>
+          <p id="film-credit"></p>
+        </div>
+        <a
+          class="text-link video-external"
+          href="https://www.youtube.com/@jbs-street-recordings"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-i18n="watchYoutube"
+          >在 YouTube 觀看 ↗</a
+        >
+      </div>
+      <p class="player-note" data-i18n="playerNote">
+        若播放器無法載入，請點選「在 YouTube 觀看」。
+      </p>
+    </dialog>
+  </body>
 </html>
