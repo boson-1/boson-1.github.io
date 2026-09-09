@@ -2,48 +2,174 @@
 
 // Every film belongs to the public JBS Street Recordings channel.
 const films = {
-  tiMi9QrME_Y: {
-    title: ["ICONIC BY MISTAKE", "ICONIC BY MISTAKE"],
-    credit: [
+  "tiMi9QrME_Y": {
+    "title": [
+      "ICONIC BY MISTAKE",
+      "ICONIC BY MISTAKE"
+    ],
+    "credit": [
       "舞客星夏日派對舞蹈快閃・台中｜音樂：LE SSERAFIM × ILLIT × KATSEYE｜影像紀錄：側影之心",
-      "Star Dance summer pop-up, Taichung · Music: LE SSERAFIM × ILLIT × KATSEYE · Filmed by JBS Street Recordings",
+      "Star Dance summer pop-up, Taichung · Music: LE SSERAFIM × ILLIT × KATSEYE · Filmed by JBS Street Recordings"
     ],
+    "category": "stage",
+    "sourceTitle": "260823 LE SSERAFIM x ILLIT x KATSEYE 'ICONIC BY MISTAKE' 舞客星 夏日派對舞蹈快閃 台中 | KPOP Dance Cover",
+    "viewCount": 120005,
+    "viewsCheckedAt": "2026-09-09"
   },
-  HjaXSWdrFks: {
-    title: ["新生熱舞 · Rïtmo", "Rïtmo · Hsin Sheng Dance"],
-    credit: [
-      "演出：新生熱舞｜桃竹苗高中職聯合舞展第二十三屆 Rïtmo｜影像紀錄：側影之心",
-      "Performance: Hsin Sheng Dance · 23rd Rïtmo joint school showcase · Filmed by JBS Street Recordings",
+  "Kom_xgHTunk": {
+    "title": [
+      "Golden",
+      "Golden"
     ],
-  },
-  mlC6SqKO5Xs: {
-    title: ["BOOMBAYAH · 佳人們誰懂", "BOOMBAYAH · Dance on Life"],
-    credit: [
-      "演出：佳人們誰懂｜音樂：BLACKPINK〈BOOMBAYAH〉｜2025 DANCE ON LIFE 新竹縣全國街舞大賽｜影像紀錄：側影之心",
-      "Performance: 佳人們誰懂 · Music: BLACKPINK, BOOMBAYAH · 2025 Dance on Life, Hsinchu · Filmed by JBS Street Recordings",
+    "credit": [
+      "音樂：KPop Demon Hunters〈Golden〉｜舞客星第三屆成果發表・台中｜影像紀錄：側影之心",
+      "Music: KPop Demon Hunters, Golden · Star Dance 3rd annual showcase, Taichung · Filmed by JBS Street Recordings"
     ],
+    "category": "stage",
+    "sourceTitle": "251207 Golden KPop Demon Hunters Cover | 舞客星第三屆成果發表 台中 | KPOP Dance Cover | 4K60FPS",
+    "viewCount": 12910,
+    "viewsCheckedAt": "2026-09-09"
   },
-  lxSwGO8jnu0: {
-    title: ["Strategy · Side Cam", "Strategy · Side Cam"],
-    credit: [
-      "演出：艾莉兒、曉帆、晶晶、麻由、品瑄、翊喬、真真、語晴、子涵｜音樂：TWICE〈Strategy〉｜信義區，2024.12.29｜側拍：側影之心",
-      "Performance: 艾莉兒、曉帆、晶晶、麻由、品瑄、翊喬、真真、語晴、子涵 · Music: TWICE, Strategy · Xinyi, 2024.12.29 · Side camera: JBS Street Recordings",
+  "7VYtoh1vuXw": {
+    "title": [
+      "Q-Xii · 夏日成發",
+      "Q-Xii · Summer Showcase"
     ],
-  },
-  LTzvOOpUqac: {
-    title: ["GNARLY · Fireworks", "GNARLY · Fireworks"],
-    credit: [
-      "演出：Fireworks｜音樂：KATSEYE〈GNARLY〉｜舞客星台中夏日快閃｜影像紀錄：側影之心",
-      "Performance: Fireworks · Music: KATSEYE, GNARLY · Star Dance summer pop-up, Taichung · Filmed by JBS Street Recordings",
+    "credit": [
+      "演出：Q-Xii｜2026 動手動腳夏日成果發表｜影像紀錄：側影之心",
+      "Performance: Q-Xii · 2026 Dong Shou Dong Jiao summer showcase · Filmed by JBS Street Recordings"
     ],
+    "category": "stage",
+    "sourceTitle": "260712 Q-Xii  熱舞 | 2026 動手動腳夏日成果發表 | Dance Choreo | 4K60FPS",
+    "viewCount": 2550,
+    "viewsCheckedAt": "2026-09-09"
   },
-  XfOgJukNFSA: {
-    title: ["三十高校街舞祭 · JAZZ", "Dance30 · JAZZ"],
-    credit: [
-      "演出：鶯歌、明德、松商、秀峰｜2024 SYM Dance30 三十高校街舞祭｜影像紀錄：側影之心",
-      "Performance: Yingge, Mingde, Songshan & Xiufeng · 2024 SYM Dance30 · Filmed by JBS Street Recordings",
+  "lGENk6rvQQc": {
+    "title": [
+      "東山 JAZZ · 三十高校街舞祭",
+      "Dongshan JAZZ · Dance30"
     ],
+    "credit": [
+      "演出：東山 JAZZ｜2025 SYM Dance30 三十高校街舞祭・第 23 屆｜影像紀錄：側影之心",
+      "Performance: Dongshan JAZZ · 23rd SYM Dance30 joint school showcase, 2025 · Filmed by JBS Street Recordings"
+    ],
+    "category": "stage",
+    "sourceTitle": "251123 JAZZ 熱舞 | 東山 | 2025 SYM Dance30 三十高校街舞祭 23rd 三十聯 30聯 | 4K60FPS",
+    "viewCount": 35633,
+    "viewsCheckedAt": "2026-09-09"
   },
+  "qwLBP0nusyM": {
+    "title": [
+      "道明勁舞 Val!ra",
+      "Val!ra · Dao Ming Dance"
+    ],
+    "credit": [
+      "演出：道明勁舞 Val!ra｜第十七屆舞點・開始｜高雄海流館・後台｜影像紀錄：側影之心",
+      "Performance: Dao Ming Dance, Val!ra · 17th Dance Point showcase · Backstage Live, Kaohsiung · Filmed by JBS Street Recordings"
+    ],
+    "category": "stage",
+    "sourceTitle": "260418 道明勁舞 Val!ra | 第十七屆 舞點•開始 | Dance Choreo | 4K60FPS",
+    "viewCount": 9271,
+    "viewsCheckedAt": "2026-09-09"
+  },
+  "Vac7ifM5ilY": {
+    "title": [
+      "404 (New Era) · 家齊韓舞",
+      "404 (New Era) · Kilypop"
+    ],
+    "credit": [
+      "演出：家齊韓舞 kilypop｜音樂：KiiiKiii〈404 (New Era)〉｜2026 Top Trend Kpop Dance Show Vol.5｜影像紀錄：側影之心",
+      "Performance: Chia-Chi Kilypop · Music: KiiiKiii, 404 (New Era) · 2026 Top Trend Kpop Dance Show Vol.5 · Filmed by JBS Street Recordings"
+    ],
+    "category": "stage",
+    "sourceTitle": "260726 家齊韓舞 kilypop KPOP 熱舞 | KiiiKiii 키키 '404 (New Era)' | KPOP Dance Choreo | 4K60FPS",
+    "viewCount": 2673,
+    "viewsCheckedAt": "2026-09-09"
+  },
+  "mlC6SqKO5Xs": {
+    "title": [
+      "BOOMBAYAH · 佳人們誰懂",
+      "BOOMBAYAH · Dance on Life"
+    ],
+    "credit": [
+      "演出：佳人們誰懂｜音樂：BLACKPINK〈BOOMBAYAH〉｜2025 DANCE ON LIFE 新竹縣全國街舞大賽 Vol.3｜200 萬觀看 UP｜影像紀錄：側影之心",
+      "Performance: 佳人們誰懂 · Music: BLACKPINK, BOOMBAYAH · 2025 Dance on Life Vol.3, Hsinchu · 2M+ views · Filmed by JBS Street Recordings"
+    ],
+    "category": "competition",
+    "sourceTitle": "250503 BLACKPINK 붐바야 (BOOMBAYAH) | 佳⼈們誰懂 | 2025 DANCE ON LIFE 新竹縣全國街舞大賽 Vol 3. | KPOP COVER | 4K60P",
+    "viewCount": 2397360,
+    "viewsCheckedAt": "2026-09-09"
+  },
+  "RLflffITWjQ": {
+    "title": [
+      "FOCUS · BADDIE CREW",
+      "FOCUS · BADDIE CREW"
+    ],
+    "credit": [
+      "演出：BADDIE CREW（@BADDIECREWTW）｜音樂：Hearts2Hearts〈FOCUS〉｜2026 DANCE ON LIFE 新竹縣全國街舞大賽 Vol.4｜影像紀錄：側影之心",
+      "Performance: BADDIE CREW (@BADDIECREWTW) · Music: Hearts2Hearts, FOCUS · 2026 Dance on Life Vol.4, Hsinchu · Filmed by JBS Street Recordings"
+    ],
+    "category": "competition",
+    "sourceTitle": "260502 Hearts2Hearts 하츠투하츠 'FOCUS' | @BADDIECREWTW | 2026 DANCE ON LIFE 新竹縣全國街舞大賽 Vol 4 | KPOP COVER",
+    "viewCount": 5019,
+    "viewsCheckedAt": "2026-09-09"
+  },
+  "4N1xjvAeacE": {
+    "title": [
+      "Q-Time · 全中盃",
+      "Q-Time · HDC"
+    ],
+    "credit": [
+      "演出：Q-Time｜115 年全國中等學校熱舞大賽・全中盃北區預賽｜高中女生組｜影像紀錄：側影之心",
+      "Performance: Q-Time · 2026 High School Dance Championships, northern qualifier · High school girls division · Filmed by JBS Street Recordings"
+    ],
+    "category": "competition",
+    "sourceTitle": "260808 Q-Time | 115 年全國中等學校熱舞大賽 全中盃北區預賽 高中女生組 HDC | 4K60fps",
+    "viewCount": 2196,
+    "viewsCheckedAt": "2026-09-09"
+  },
+  "GSGTiXeFqgk": {
+    "title": [
+      "BORN TO BE · WOO GIRLS",
+      "BORN TO BE · WOO GIRLS"
+    ],
+    "credit": [
+      "演出：WOO GIRLS｜音樂：ITZY〈BORN TO BE〉｜2024 Hero 4 Who 國際舞蹈大賽北區初賽・KPOP 排舞社會組冠軍｜影像紀錄：側影之心",
+      "Performance: WOO GIRLS · Music: ITZY, BORN TO BE · 2024 Hero 4 Who northern qualifier, KPOP adult division winner · Filmed by JBS Street Recordings"
+    ],
+    "category": "competition",
+    "sourceTitle": "2024 Hero 4 Who 國際舞蹈大賽 北區初賽 KPOP排舞 社會組 冠軍 | WOO GIRLS | ITZY BORN TO BE Choreography | 4k60fps",
+    "viewCount": 74436,
+    "viewsCheckedAt": "2026-09-09"
+  },
+  "12fazLuTeLY": {
+    "title": [
+      "Hate Rodrigo",
+      "Hate Rodrigo"
+    ],
+    "credit": [
+      "音樂：YENA feat. YUQI〈Hate Rodrigo〉｜信義區・2023.07.15｜Behind Scenes・Take 1｜影像紀錄：側影之心",
+      "Music: YENA feat. YUQI, Hate Rodrigo · Xinyi, 2023.07.15 · Behind the scenes, take 1 · Filmed by JBS Street Recordings"
+    ],
+    "category": "kpop",
+    "sourceTitle": "[KPOP IN PUBLIC] YENA (최예나) - Hate Rodrigo (Feat. 우기)  | Dance Cover | Behind Scenes | Take 1 | 4k60",
+    "viewCount": 7515,
+    "viewsCheckedAt": "2026-09-09"
+  },
+  "lxSwGO8jnu0": {
+    "title": [
+      "Strategy · Side Cam",
+      "Strategy · Side Cam"
+    ],
+    "credit": [
+      "演出：艾莉兒、曉帆、晶晶、麻由、品瑄、翊喬、真真、語晴、子涵｜音樂：TWICE〈Strategy〉｜信義區・2024.12.29｜影像紀錄：側影之心",
+      "Performance: 艾莉兒、曉帆、晶晶、麻由、品瑄、翊喬、真真、語晴、子涵 · Music: TWICE, Strategy · Xinyi, 2024.12.29 · Filmed by JBS Street Recordings"
+    ],
+    "category": "kpop",
+    "sourceTitle": "[KPOP IN PUBLIC] TWICE - 'Strategy' | Dance Cover | SIDE CAM | 4k60fps",
+    "viewCount": 6017,
+    "viewsCheckedAt": "2026-09-09"
+  }
 };
 
 // Trusted, authored copy only. No user input is inserted as HTML.
@@ -59,22 +185,39 @@ const english = {
   heroDesc:
     "From the street to the stage, capturing the moments you give your all.<br>Let the feeling live on, long after the last beat.",
   explore: "Explore the films",
-  heroFilm: "Dance30 · JAZZ",
+  heroFilm: "BOOMBAYAH · Dance on Life",
+  viewsMilestone: "2M+ VIEWS",
   intro: "You bring the energy.<span>I keep it in the frame.</span>",
   workTitle: 'Moments made for replay<span class="accent">.</span>',
   allYoutube: "More films on YouTube",
   filterAll: "All films",
-  filterStreet: "K-pop / Street",
-  filterStage: "Stage / Live",
-  filterCompetition: "Competition",
+  filterStage: "Showcases / Recitals",
+  filterCompetition: "Competition Films",
+  filterKpop: "KPOP in Public",
+  work1Title: "ICONIC BY MISTAKE",
   work1Desc: "Star Dance summer pop-up · Taichung",
-  work2Title: "Rïtmo · Hsin Sheng Dance",
-  work2Desc: "23rd joint school dance showcase",
-  work3Desc: "佳人們誰懂 · Dance on Life, Hsinchu",
-  work4Desc: "TWICE dance cover · Side cam in Xinyi",
-  work5Desc: "Fireworks · Summer pop-up in Taichung",
-  work6Title: "Dance30 · JAZZ",
-  work6Desc: "Yingge × Mingde × Songshan × Xiufeng · SYM Dance30",
+  work2Title: "Golden",
+  work2Desc: "Star Dance 3rd annual showcase · Taichung",
+  work3Title: "Q-Xii · Summer Showcase",
+  work3Desc: "Dong Shou Dong Jiao · 2026 summer showcase",
+  work4Title: "Dongshan JAZZ · Dance30",
+  work4Desc: "23rd joint school showcase · 2025 SYM Dance30",
+  work5Title: "Val!ra · Dao Ming Dance",
+  work5Desc: "17th Dance Point showcase · Kaohsiung",
+  work6Title: "404 (New Era) · Kilypop",
+  work6Desc: "Kilypop · Top Trend Kpop Dance Show Vol.5",
+  work7Title: "BOOMBAYAH · Dance on Life",
+  work7Desc: "2025 Dance on Life Vol.3 · Hsinchu",
+  work8Title: "FOCUS · BADDIE CREW",
+  work8Desc: "2026 Dance on Life Vol.4 · Hsinchu",
+  work9Title: "Q-Time · HDC",
+  work9Desc: "2026 HDC northern qualifier · High school girls",
+  work10Title: "BORN TO BE · WOO GIRLS",
+  work10Desc: "2024 Hero 4 Who northern qualifier · KPOP adult division winner",
+  work11Title: "Hate Rodrigo",
+  work11Desc: "YENA feat. YUQI · Behind the scenes in Xinyi",
+  work12Title: "Strategy · Side Cam",
+  work12Desc: "TWICE dance cover · Side cam in Xinyi",
   servicesTitle: 'Your stage. My perspective<span class="accent">.</span>',
   servicesDesc:
     "For dancers, crews and event organizers.<br>Films to share, keep and come back to.",
@@ -148,16 +291,6 @@ const translatedElements = [...document.querySelectorAll("[data-i18n]")];
 const chinese = Object.fromEntries(
   translatedElements.map((el) => [el.dataset.i18n, el.innerHTML]),
 );
-const imageDescriptions = [
-  "Dancers performing under blue stage lights at SYM Dance30",
-  "ICONIC BY MISTAKE, a dance pop-up in Taichung",
-  "Hsin Sheng Dance performing at the Rïtmo showcase",
-  "BOOMBAYAH dance cover at the Dance on Life competition",
-  "Side-camera view of a TWICE Strategy cover in Xinyi",
-  "Fireworks performing a KATSEYE GNARLY dance cover",
-  "Yingge, Mingde, Songshan and Xiufeng performing JAZZ at Dance30",
-  "The side-camera perspective and setting of the Strategy dance cover",
-];
 const siteImages = [...document.querySelectorAll("main img")];
 const chineseImageDescriptions = siteImages.map((image) => image.alt);
 const languageButton = document.querySelector(".language-toggle");
@@ -203,7 +336,7 @@ function setLanguage(next) {
   document.documentElement.lang = language === "en" ? "en" : "zh-Hant";
   siteImages.forEach((image, i) => {
     image.alt =
-      language === "en" ? imageDescriptions[i] : chineseImageDescriptions[i];
+      language === "en" ? image.dataset.altEn : chineseImageDescriptions[i];
   });
   document.title =
     language === "en"

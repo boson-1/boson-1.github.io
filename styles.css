@@ -614,6 +614,25 @@ h2 {
   font-weight: 500;
   margin-bottom: 8px;
 }
+.views-badge {
+  display: inline-block;
+  width: fit-content;
+  padding: 5px 9px;
+  border: 1px solid #a8bc7180;
+  border-radius: 2px;
+  color: var(--accent);
+  background: #20261de6;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: 1px;
+}
+.work-caption .views-badge {
+  margin: 0 0 10px;
+}
+.hero-play-label .views-badge {
+  margin-top: 5px;
+}
 .work-caption p:last-child {
   font-size: 11px;
   line-height: 1.8;

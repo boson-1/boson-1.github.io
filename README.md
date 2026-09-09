@@ -24,9 +24,11 @@ python -m http.server 4173 --bind 127.0.0.1
 - `assets/images/`：頻道真實公開影片縮圖，僅轉為 WebP。沒有使用外部攝影師的作品素材。
 - `docs/research.md`：設計參考、頻道內容依據與作品來源。
 
-新增影片時，同步更新 HTML 作品卡片與 `app.js` 的 `films`。更新中文文案請修改 HTML；英文對照位於 `english`。`?lang=en`、`?lang=zh` 可指定語言；一般瀏覽會記住手動選擇。
+新增影片時，同步更新 HTML 作品卡片與 `app.js` 的 `films`。更新中文文案請修改 HTML；英文對照位於 `english`，圖片英文替代文字位於 HTML 的 `data-alt-en`。`?lang=en`、`?lang=zh` 可指定語言；一般瀏覽會記住手動選擇。
 
 公開頻道數據的擷取日期為 **2026-09-09**，不是即時統計。更新時也請同步修改資料日期。首頁下修顯示為 44K+ 訂閱者、1,900+ 影片、11M+ 次觀看。
+
+作品順序固定為「舞展/成發」、「賽事記錄」、「KPOP 快閃」，目前共 12 支（6 / 4 / 2）。KPOP 快閃僅收錄原始標題以 `[KPOP IN PUBLIC]` 開頭的影片，按公開觀看數取前二。`films` 的 `sourceTitle`、`viewCount` 與 `viewsCheckedAt` 保存此次核對資料。Banner 與分享圖使用頻道觀看最高的 BOOMBAYAH，並顯示 200 萬觀看 UP。
 
 ## 行為與發布
 
