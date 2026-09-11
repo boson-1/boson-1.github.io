@@ -1,3 +1,7 @@
 User-agent: *
 Allow: /
+Disallow: /templates/
+Disallow: /scripts/
+Disallow: /content/
+Disallow: /docs/
 Sitemap: https://yt.jamesboson.com/sitemap.xml

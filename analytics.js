@@ -3,6 +3,9 @@
 (() => {
   // Only measure the live portfolio, never localhost or downloaded previews.
   if (location.hostname !== "yt.jamesboson.com") return;
+  // Legacy language URLs immediately redirect to their canonical HTML page.
+  const requestedLanguage = new URLSearchParams(location.search).get("lang");
+  if (["/", "/en/"].includes(location.pathname) && ["en", "zh"].includes(requestedLanguage)) return;
 
   const measurementId = "G-HQ7TTCGWDC";
   const cloudflareToken = "2070b01ba4b5413dbd8041bf75dda671";

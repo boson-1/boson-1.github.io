@@ -1,5 +1,14 @@
 "use strict";
 
+// Keep old shared language URLs working; each language now has its own HTML.
+const legacyLanguageUrl = new URL(location.href);
+const legacyLanguage = legacyLanguageUrl.searchParams.get("lang");
+if (legacyLanguage === "en" || legacyLanguage === "zh") {
+  legacyLanguageUrl.pathname = legacyLanguage === "en" ? "/en/" : "/";
+  legacyLanguageUrl.searchParams.delete("lang");
+  location.replace(legacyLanguageUrl.href);
+}
+
 // Every film belongs to the public JBS Street Recordings channel.
 const films = {
   "tiMi9QrME_Y": {
@@ -179,7 +188,7 @@ const english = {
   navServices: "Services",
   navAbout: "About",
   navContact: "Let’s talk",
-  heroKicker: "DANCE · LIVE PERFORMANCE · FILM",
+  heroKicker: "TAIWAN · DANCE & LIVE PERFORMANCE FILMMAKER",
   heroLine1: "Every move.",
   heroLine2: "Worth seeing.",
   heroDesc:
@@ -223,7 +232,7 @@ const english = {
     "For dancers, crews and event organizers.<br>Films to share, keep and come back to.",
   service1Title: "Live shows & competitions",
   service1Desc:
-    "From school showcases to dance competitions, capturing formations, rhythm and the atmosphere in the room. A lasting record of the performance you worked so hard to bring to life.",
+    "Filming dance studio recitals, joint high school showcases and street dance competitions. Capturing formations, rhythm and the atmosphere in the room, with a lasting record of the performance you worked so hard to bring to life.",
   service1Tag1: "School showcases",
   service1Tag2: "Recitals",
   service1Tag3: "Dance competitions",
@@ -284,6 +293,7 @@ const english = {
   footerTagline: "Keeping passion in the frame.",
   backTop: "Back to top ↑",
   watchYoutube: "Watch on YouTube ↗",
+  filmPage: "Film details ↗",
   playerNote: "If the player does not load, choose “Watch on YouTube”.",
 };
 
@@ -324,6 +334,8 @@ function updateFilmCaption() {
     films[openedFilm].title[index];
   document.getElementById("film-credit").textContent =
     films[openedFilm].credit[index];
+  document.querySelector(".film-page-link").href =
+    `${language === "en" ? "/en" : ""}/films/${openedFilm}/`;
 }
 
 function setLanguage(next) {
@@ -340,12 +352,12 @@ function setLanguage(next) {
   });
   document.title =
     language === "en"
-      ? "JBS Street Recordings | Dance & Live Performance Filmmaker in Taiwan"
-      : "側影之心 JBS Street Recordings｜舞蹈・現場演出・動態影像";
+      ? "Taiwan Dance Videographer | JBS Street Recordings"
+      : "側影之心｜台灣舞蹈錄影・舞展成發・賽事記錄";
   document.querySelector('meta[name="description"]').content =
     language === "en"
-      ? "Taiwan-based dance and live performance filmmaker. Explore K-pop covers, live showcases and competition films by JBS Street Recordings."
-      : "側影之心 JBS Street Recordings，專注舞蹈、K-pop cover、舞展與賽事的動態影像紀錄。看看作品，聊聊你的下一場演出。";
+      ? "Dance videography in Taiwan by JBS Street Recordings. Explore studio recitals, joint school showcases, dance competitions and KPOP IN PUBLIC films. Enquire on Instagram."
+      : "側影之心 JBS Street Recordings，專注台灣舞蹈錄影、舞蹈教室成果發表、高中職聯合成發、街舞賽事記錄與 KPOP 快閃。瀏覽真實拍攝作品，透過 Instagram 洽詢檔期與合作。";
   languageButton.textContent = language === "en" ? "中" : "EN";
   languageButton.setAttribute(
     "aria-label",
@@ -414,9 +426,9 @@ function setLanguage(next) {
 
 languageButton.hidden = false;
 menuButton.hidden = false;
-languageButton.addEventListener("click", () =>
-  setLanguage(language === "zh" ? "en" : "zh"),
-);
+languageButton.addEventListener("click", () => {
+  languageButton.href = `${language === "zh" ? "/en/" : "/"}${location.hash}`;
+});
 menuButton.addEventListener("click", () => setMenu(mobileNav.hidden));
 mobileNav.addEventListener("click", (event) => {
   if (event.target.closest("a")) setMenu(false);
@@ -538,13 +550,6 @@ copyButton.addEventListener("click", async () => {
   }
 });
 
-let initialLanguage = new URLSearchParams(location.search).get("lang");
-if (!initialLanguage) {
-  try {
-    initialLanguage = localStorage.getItem("jbs-language");
-  } catch {
-    /* Default to Traditional Chinese. */
-  }
-}
-setLanguage(initialLanguage);
+// Stable HTML language prevents stored preferences from changing indexed text.
+setLanguage(document.documentElement.lang === "en" ? "en" : "zh");
 document.getElementById("year").textContent = String(new Date().getFullYear());

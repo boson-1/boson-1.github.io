@@ -11,6 +11,10 @@
   font-family: Arial, "Noto Sans TC", "Microsoft JhengHei", sans-serif;
   font-synthesis: none;
 }
+.film-page-link {
+  display: inline-block;
+  margin-top: 15px;
+}
 * {
   box-sizing: border-box;
 }

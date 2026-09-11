@@ -1,2 +1,377 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://yt.jamesboson.com/</loc><lastmod>2026-09-09</lastmod></url></urlset>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://yt.jamesboson.com/</loc>
+    <lastmod>2026-09-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yt.jamesboson.com/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yt.jamesboson.com/en/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yt.jamesboson.com/" />
+  </url>
+  <url>
+    <loc>https://yt.jamesboson.com/en/</loc>
+    <lastmod>2026-09-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yt.jamesboson.com/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yt.jamesboson.com/en/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yt.jamesboson.com/" />
+  </url>
+  <url>
+    <loc>https://yt.jamesboson.com/films/tiMi9QrME_Y/</loc>
+    <lastmod>2026-09-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yt.jamesboson.com/films/tiMi9QrME_Y/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yt.jamesboson.com/en/films/tiMi9QrME_Y/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yt.jamesboson.com/films/tiMi9QrME_Y/" />
+    <video:video>
+      <video:thumbnail_loc>https://yt.jamesboson.com/assets/images/tiMi9QrME_Y.webp</video:thumbnail_loc>
+      <video:title>ICONIC BY MISTAKE</video:title>
+      <video:description>舞客星夏日派對舞蹈快閃・台中｜音樂：LE SSERAFIM × ILLIT × KATSEYE｜影像紀錄：側影之心</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/tiMi9QrME_Y</video:player_loc>
+      <video:duration>207</video:duration>
+      <video:publication_date>2026-08-23T09:03:54-07:00</video:publication_date>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://yt.jamesboson.com/en/films/tiMi9QrME_Y/</loc>
+    <lastmod>2026-09-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yt.jamesboson.com/films/tiMi9QrME_Y/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yt.jamesboson.com/en/films/tiMi9QrME_Y/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yt.jamesboson.com/films/tiMi9QrME_Y/" />
+    <video:video>
+      <video:thumbnail_loc>https://yt.jamesboson.com/assets/images/tiMi9QrME_Y.webp</video:thumbnail_loc>
+      <video:title>ICONIC BY MISTAKE</video:title>
+      <video:description>Star Dance summer pop-up, Taichung · Music: LE SSERAFIM × ILLIT × KATSEYE · Filmed by JBS Street Recordings</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/tiMi9QrME_Y</video:player_loc>
+      <video:duration>207</video:duration>
+      <video:publication_date>2026-08-23T09:03:54-07:00</video:publication_date>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://yt.jamesboson.com/films/Kom_xgHTunk/</loc>
+    <lastmod>2026-09-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yt.jamesboson.com/films/Kom_xgHTunk/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yt.jamesboson.com/en/films/Kom_xgHTunk/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yt.jamesboson.com/films/Kom_xgHTunk/" />
+    <video:video>
+      <video:thumbnail_loc>https://yt.jamesboson.com/assets/images/Kom_xgHTunk.webp</video:thumbnail_loc>
+      <video:title>Golden</video:title>
+      <video:description>音樂：KPop Demon Hunters〈Golden〉｜舞客星第三屆成果發表・台中｜影像紀錄：側影之心</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/Kom_xgHTunk</video:player_loc>
+      <video:duration>205</video:duration>
+      <video:publication_date>2025-12-22T05:54:28-08:00</video:publication_date>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://yt.jamesboson.com/en/films/Kom_xgHTunk/</loc>
+    <lastmod>2026-09-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yt.jamesboson.com/films/Kom_xgHTunk/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yt.jamesboson.com/en/films/Kom_xgHTunk/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yt.jamesboson.com/films/Kom_xgHTunk/" />
+    <video:video>
+      <video:thumbnail_loc>https://yt.jamesboson.com/assets/images/Kom_xgHTunk.webp</video:thumbnail_loc>
+      <video:title>Golden</video:title>
+      <video:description>Music: KPop Demon Hunters, Golden · Star Dance 3rd annual showcase, Taichung · Filmed by JBS Street Recordings</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/Kom_xgHTunk</video:player_loc>
+      <video:duration>205</video:duration>
+      <video:publication_date>2025-12-22T05:54:28-08:00</video:publication_date>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://yt.jamesboson.com/films/7VYtoh1vuXw/</loc>
+    <lastmod>2026-09-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yt.jamesboson.com/films/7VYtoh1vuXw/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yt.jamesboson.com/en/films/7VYtoh1vuXw/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yt.jamesboson.com/films/7VYtoh1vuXw/" />
+    <video:video>
+      <video:thumbnail_loc>https://yt.jamesboson.com/assets/images/7VYtoh1vuXw.webp</video:thumbnail_loc>
+      <video:title>Q-Xii · 夏日成發</video:title>
+      <video:description>演出：Q-Xii｜2026 動手動腳夏日成果發表｜影像紀錄：側影之心</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/7VYtoh1vuXw</video:player_loc>
+      <video:duration>124</video:duration>
+      <video:publication_date>2026-07-13T08:58:09-07:00</video:publication_date>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://yt.jamesboson.com/en/films/7VYtoh1vuXw/</loc>
+    <lastmod>2026-09-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yt.jamesboson.com/films/7VYtoh1vuXw/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yt.jamesboson.com/en/films/7VYtoh1vuXw/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yt.jamesboson.com/films/7VYtoh1vuXw/" />
+    <video:video>
+      <video:thumbnail_loc>https://yt.jamesboson.com/assets/images/7VYtoh1vuXw.webp</video:thumbnail_loc>
+      <video:title>Q-Xii · Summer Showcase</video:title>
+      <video:description>Performance: Q-Xii · 2026 Dong Shou Dong Jiao summer showcase · Filmed by JBS Street Recordings</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/7VYtoh1vuXw</video:player_loc>
+      <video:duration>124</video:duration>
+      <video:publication_date>2026-07-13T08:58:09-07:00</video:publication_date>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://yt.jamesboson.com/films/lGENk6rvQQc/</loc>
+    <lastmod>2026-09-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yt.jamesboson.com/films/lGENk6rvQQc/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yt.jamesboson.com/en/films/lGENk6rvQQc/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yt.jamesboson.com/films/lGENk6rvQQc/" />
+    <video:video>
+      <video:thumbnail_loc>https://yt.jamesboson.com/assets/images/lGENk6rvQQc.webp</video:thumbnail_loc>
+      <video:title>東山 JAZZ · 三十高校街舞祭</video:title>
+      <video:description>演出：東山 JAZZ｜2025 SYM Dance30 三十高校街舞祭・第 23 屆｜影像紀錄：側影之心</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/lGENk6rvQQc</video:player_loc>
+      <video:duration>228</video:duration>
+      <video:publication_date>2026-02-20T07:53:48-08:00</video:publication_date>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://yt.jamesboson.com/en/films/lGENk6rvQQc/</loc>
+    <lastmod>2026-09-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yt.jamesboson.com/films/lGENk6rvQQc/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yt.jamesboson.com/en/films/lGENk6rvQQc/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yt.jamesboson.com/films/lGENk6rvQQc/" />
+    <video:video>
+      <video:thumbnail_loc>https://yt.jamesboson.com/assets/images/lGENk6rvQQc.webp</video:thumbnail_loc>
+      <video:title>Dongshan JAZZ · Dance30</video:title>
+      <video:description>Performance: Dongshan JAZZ · 23rd SYM Dance30 joint school showcase, 2025 · Filmed by JBS Street Recordings</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/lGENk6rvQQc</video:player_loc>
+      <video:duration>228</video:duration>
+      <video:publication_date>2026-02-20T07:53:48-08:00</video:publication_date>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://yt.jamesboson.com/films/qwLBP0nusyM/</loc>
+    <lastmod>2026-09-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yt.jamesboson.com/films/qwLBP0nusyM/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yt.jamesboson.com/en/films/qwLBP0nusyM/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yt.jamesboson.com/films/qwLBP0nusyM/" />
+    <video:video>
+      <video:thumbnail_loc>https://yt.jamesboson.com/assets/images/qwLBP0nusyM.webp</video:thumbnail_loc>
+      <video:title>道明勁舞 Val!ra</video:title>
+      <video:description>演出：道明勁舞 Val!ra｜第十七屆舞點・開始｜高雄海流館・後台｜影像紀錄：側影之心</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/qwLBP0nusyM</video:player_loc>
+      <video:duration>181</video:duration>
+      <video:publication_date>2026-04-21T08:45:07-07:00</video:publication_date>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://yt.jamesboson.com/en/films/qwLBP0nusyM/</loc>
+    <lastmod>2026-09-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yt.jamesboson.com/films/qwLBP0nusyM/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yt.jamesboson.com/en/films/qwLBP0nusyM/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yt.jamesboson.com/films/qwLBP0nusyM/" />
+    <video:video>
+      <video:thumbnail_loc>https://yt.jamesboson.com/assets/images/qwLBP0nusyM.webp</video:thumbnail_loc>
+      <video:title>Val!ra · Dao Ming Dance</video:title>
+      <video:description>Performance: Dao Ming Dance, Val!ra · 17th Dance Point showcase · Backstage Live, Kaohsiung · Filmed by JBS Street Recordings</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/qwLBP0nusyM</video:player_loc>
+      <video:duration>181</video:duration>
+      <video:publication_date>2026-04-21T08:45:07-07:00</video:publication_date>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://yt.jamesboson.com/films/Vac7ifM5ilY/</loc>
+    <lastmod>2026-09-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yt.jamesboson.com/films/Vac7ifM5ilY/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yt.jamesboson.com/en/films/Vac7ifM5ilY/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yt.jamesboson.com/films/Vac7ifM5ilY/" />
+    <video:video>
+      <video:thumbnail_loc>https://yt.jamesboson.com/assets/images/Vac7ifM5ilY.webp</video:thumbnail_loc>
+      <video:title>404 (New Era) · 家齊韓舞</video:title>
+      <video:description>演出：家齊韓舞 kilypop｜音樂：KiiiKiii〈404 (New Era)〉｜2026 Top Trend Kpop Dance Show Vol.5｜影像紀錄：側影之心</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/Vac7ifM5ilY</video:player_loc>
+      <video:duration>201</video:duration>
+      <video:publication_date>2026-08-16T08:43:54-07:00</video:publication_date>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://yt.jamesboson.com/en/films/Vac7ifM5ilY/</loc>
+    <lastmod>2026-09-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yt.jamesboson.com/films/Vac7ifM5ilY/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yt.jamesboson.com/en/films/Vac7ifM5ilY/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yt.jamesboson.com/films/Vac7ifM5ilY/" />
+    <video:video>
+      <video:thumbnail_loc>https://yt.jamesboson.com/assets/images/Vac7ifM5ilY.webp</video:thumbnail_loc>
+      <video:title>404 (New Era) · Kilypop</video:title>
+      <video:description>Performance: Chia-Chi Kilypop · Music: KiiiKiii, 404 (New Era) · 2026 Top Trend Kpop Dance Show Vol.5 · Filmed by JBS Street Recordings</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/Vac7ifM5ilY</video:player_loc>
+      <video:duration>201</video:duration>
+      <video:publication_date>2026-08-16T08:43:54-07:00</video:publication_date>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://yt.jamesboson.com/films/mlC6SqKO5Xs/</loc>
+    <lastmod>2026-09-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yt.jamesboson.com/films/mlC6SqKO5Xs/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yt.jamesboson.com/en/films/mlC6SqKO5Xs/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yt.jamesboson.com/films/mlC6SqKO5Xs/" />
+    <video:video>
+      <video:thumbnail_loc>https://yt.jamesboson.com/assets/images/mlC6SqKO5Xs.webp</video:thumbnail_loc>
+      <video:title>BOOMBAYAH · 佳人們誰懂</video:title>
+      <video:description>演出：佳人們誰懂｜音樂：BLACKPINK〈BOOMBAYAH〉｜2025 DANCE ON LIFE 新竹縣全國街舞大賽 Vol.3｜200 萬觀看 UP｜影像紀錄：側影之心</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/mlC6SqKO5Xs</video:player_loc>
+      <video:duration>273</video:duration>
+      <video:publication_date>2025-05-30T06:15:16-07:00</video:publication_date>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://yt.jamesboson.com/en/films/mlC6SqKO5Xs/</loc>
+    <lastmod>2026-09-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yt.jamesboson.com/films/mlC6SqKO5Xs/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yt.jamesboson.com/en/films/mlC6SqKO5Xs/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yt.jamesboson.com/films/mlC6SqKO5Xs/" />
+    <video:video>
+      <video:thumbnail_loc>https://yt.jamesboson.com/assets/images/mlC6SqKO5Xs.webp</video:thumbnail_loc>
+      <video:title>BOOMBAYAH · Dance on Life</video:title>
+      <video:description>Performance: 佳人們誰懂 · Music: BLACKPINK, BOOMBAYAH · 2025 Dance on Life Vol.3, Hsinchu · 2M+ views · Filmed by JBS Street Recordings</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/mlC6SqKO5Xs</video:player_loc>
+      <video:duration>273</video:duration>
+      <video:publication_date>2025-05-30T06:15:16-07:00</video:publication_date>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://yt.jamesboson.com/films/RLflffITWjQ/</loc>
+    <lastmod>2026-09-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yt.jamesboson.com/films/RLflffITWjQ/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yt.jamesboson.com/en/films/RLflffITWjQ/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yt.jamesboson.com/films/RLflffITWjQ/" />
+    <video:video>
+      <video:thumbnail_loc>https://yt.jamesboson.com/assets/images/RLflffITWjQ.webp</video:thumbnail_loc>
+      <video:title>FOCUS · BADDIE CREW</video:title>
+      <video:description>演出：BADDIE CREW（@BADDIECREWTW）｜音樂：Hearts2Hearts〈FOCUS〉｜2026 DANCE ON LIFE 新竹縣全國街舞大賽 Vol.4｜影像紀錄：側影之心</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/RLflffITWjQ</video:player_loc>
+      <video:duration>203</video:duration>
+      <video:publication_date>2026-05-02T08:55:57-07:00</video:publication_date>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://yt.jamesboson.com/en/films/RLflffITWjQ/</loc>
+    <lastmod>2026-09-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yt.jamesboson.com/films/RLflffITWjQ/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yt.jamesboson.com/en/films/RLflffITWjQ/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yt.jamesboson.com/films/RLflffITWjQ/" />
+    <video:video>
+      <video:thumbnail_loc>https://yt.jamesboson.com/assets/images/RLflffITWjQ.webp</video:thumbnail_loc>
+      <video:title>FOCUS · BADDIE CREW</video:title>
+      <video:description>Performance: BADDIE CREW (@BADDIECREWTW) · Music: Hearts2Hearts, FOCUS · 2026 Dance on Life Vol.4, Hsinchu · Filmed by JBS Street Recordings</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/RLflffITWjQ</video:player_loc>
+      <video:duration>203</video:duration>
+      <video:publication_date>2026-05-02T08:55:57-07:00</video:publication_date>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://yt.jamesboson.com/films/4N1xjvAeacE/</loc>
+    <lastmod>2026-09-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yt.jamesboson.com/films/4N1xjvAeacE/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yt.jamesboson.com/en/films/4N1xjvAeacE/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yt.jamesboson.com/films/4N1xjvAeacE/" />
+    <video:video>
+      <video:thumbnail_loc>https://yt.jamesboson.com/assets/images/4N1xjvAeacE.webp</video:thumbnail_loc>
+      <video:title>Q-Time · 全中盃</video:title>
+      <video:description>演出：Q-Time｜115 年全國中等學校熱舞大賽・全中盃北區預賽｜高中女生組｜影像紀錄：側影之心</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/4N1xjvAeacE</video:player_loc>
+      <video:duration>220</video:duration>
+      <video:publication_date>2026-08-09T09:00:29-07:00</video:publication_date>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://yt.jamesboson.com/en/films/4N1xjvAeacE/</loc>
+    <lastmod>2026-09-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yt.jamesboson.com/films/4N1xjvAeacE/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yt.jamesboson.com/en/films/4N1xjvAeacE/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yt.jamesboson.com/films/4N1xjvAeacE/" />
+    <video:video>
+      <video:thumbnail_loc>https://yt.jamesboson.com/assets/images/4N1xjvAeacE.webp</video:thumbnail_loc>
+      <video:title>Q-Time · HDC</video:title>
+      <video:description>Performance: Q-Time · 2026 High School Dance Championships, northern qualifier · High school girls division · Filmed by JBS Street Recordings</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/4N1xjvAeacE</video:player_loc>
+      <video:duration>220</video:duration>
+      <video:publication_date>2026-08-09T09:00:29-07:00</video:publication_date>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://yt.jamesboson.com/films/GSGTiXeFqgk/</loc>
+    <lastmod>2026-09-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yt.jamesboson.com/films/GSGTiXeFqgk/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yt.jamesboson.com/en/films/GSGTiXeFqgk/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yt.jamesboson.com/films/GSGTiXeFqgk/" />
+    <video:video>
+      <video:thumbnail_loc>https://yt.jamesboson.com/assets/images/GSGTiXeFqgk.webp</video:thumbnail_loc>
+      <video:title>BORN TO BE · WOO GIRLS</video:title>
+      <video:description>演出：WOO GIRLS｜音樂：ITZY〈BORN TO BE〉｜2024 Hero 4 Who 國際舞蹈大賽北區初賽・KPOP 排舞社會組冠軍｜影像紀錄：側影之心</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/GSGTiXeFqgk</video:player_loc>
+      <video:duration>98</video:duration>
+      <video:publication_date>2024-03-11T21:00:08-07:00</video:publication_date>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://yt.jamesboson.com/en/films/GSGTiXeFqgk/</loc>
+    <lastmod>2026-09-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yt.jamesboson.com/films/GSGTiXeFqgk/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yt.jamesboson.com/en/films/GSGTiXeFqgk/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yt.jamesboson.com/films/GSGTiXeFqgk/" />
+    <video:video>
+      <video:thumbnail_loc>https://yt.jamesboson.com/assets/images/GSGTiXeFqgk.webp</video:thumbnail_loc>
+      <video:title>BORN TO BE · WOO GIRLS</video:title>
+      <video:description>Performance: WOO GIRLS · Music: ITZY, BORN TO BE · 2024 Hero 4 Who northern qualifier, KPOP adult division winner · Filmed by JBS Street Recordings</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/GSGTiXeFqgk</video:player_loc>
+      <video:duration>98</video:duration>
+      <video:publication_date>2024-03-11T21:00:08-07:00</video:publication_date>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://yt.jamesboson.com/films/12fazLuTeLY/</loc>
+    <lastmod>2026-09-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yt.jamesboson.com/films/12fazLuTeLY/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yt.jamesboson.com/en/films/12fazLuTeLY/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yt.jamesboson.com/films/12fazLuTeLY/" />
+    <video:video>
+      <video:thumbnail_loc>https://yt.jamesboson.com/assets/images/12fazLuTeLY.webp</video:thumbnail_loc>
+      <video:title>Hate Rodrigo</video:title>
+      <video:description>音樂：YENA feat. YUQI〈Hate Rodrigo〉｜信義區・2023.07.15｜Behind Scenes・Take 1｜影像紀錄：側影之心</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/12fazLuTeLY</video:player_loc>
+      <video:duration>185</video:duration>
+      <video:publication_date>2023-07-22T03:00:00-07:00</video:publication_date>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://yt.jamesboson.com/en/films/12fazLuTeLY/</loc>
+    <lastmod>2026-09-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yt.jamesboson.com/films/12fazLuTeLY/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yt.jamesboson.com/en/films/12fazLuTeLY/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yt.jamesboson.com/films/12fazLuTeLY/" />
+    <video:video>
+      <video:thumbnail_loc>https://yt.jamesboson.com/assets/images/12fazLuTeLY.webp</video:thumbnail_loc>
+      <video:title>Hate Rodrigo</video:title>
+      <video:description>Music: YENA feat. YUQI, Hate Rodrigo · Xinyi, 2023.07.15 · Behind the scenes, take 1 · Filmed by JBS Street Recordings</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/12fazLuTeLY</video:player_loc>
+      <video:duration>185</video:duration>
+      <video:publication_date>2023-07-22T03:00:00-07:00</video:publication_date>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://yt.jamesboson.com/films/lxSwGO8jnu0/</loc>
+    <lastmod>2026-09-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yt.jamesboson.com/films/lxSwGO8jnu0/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yt.jamesboson.com/en/films/lxSwGO8jnu0/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yt.jamesboson.com/films/lxSwGO8jnu0/" />
+    <video:video>
+      <video:thumbnail_loc>https://yt.jamesboson.com/assets/images/lxSwGO8jnu0.webp</video:thumbnail_loc>
+      <video:title>Strategy · Side Cam</video:title>
+      <video:description>演出：艾莉兒、曉帆、晶晶、麻由、品瑄、翊喬、真真、語晴、子涵｜音樂：TWICE〈Strategy〉｜信義區・2024.12.29｜影像紀錄：側影之心</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/lxSwGO8jnu0</video:player_loc>
+      <video:duration>179</video:duration>
+      <video:publication_date>2025-01-04T02:00:45-08:00</video:publication_date>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://yt.jamesboson.com/en/films/lxSwGO8jnu0/</loc>
+    <lastmod>2026-09-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://yt.jamesboson.com/films/lxSwGO8jnu0/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yt.jamesboson.com/en/films/lxSwGO8jnu0/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yt.jamesboson.com/films/lxSwGO8jnu0/" />
+    <video:video>
+      <video:thumbnail_loc>https://yt.jamesboson.com/assets/images/lxSwGO8jnu0.webp</video:thumbnail_loc>
+      <video:title>Strategy · Side Cam</video:title>
+      <video:description>Performance: 艾莉兒、曉帆、晶晶、麻由、品瑄、翊喬、真真、語晴、子涵 · Music: TWICE, Strategy · Xinyi, 2024.12.29 · Filmed by JBS Street Recordings</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/lxSwGO8jnu0</video:player_loc>
+      <video:duration>179</video:duration>
+      <video:publication_date>2025-01-04T02:00:45-08:00</video:publication_date>
+    </video:video>
+  </url>
+</urlset>
